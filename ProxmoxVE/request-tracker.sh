@@ -9,7 +9,7 @@
 
 
 # Configuration variables
-CT_ID=2020  # Change this to your desired container ID
+CT_ID=1020  # Change this to your desired container ID
 HOSTNAME="rt-5"
 PASSWORD="rt5password"
 DISK_SIZE="32G"
