@@ -17,8 +17,8 @@ MEMORY="2048"
 SWAP="4096"
 CPU_CORES="2"
 BRIDGE="vmbr0"
-IP="192.168.1.105/24"  # Change to your network settings
-GATEWAY="192.168.1.1"
+IP="10.0.10.24/24"  # Change to your network settings
+GATEWAY="10.0.10.254"
 
 # Download Debian 12 template if not already available
 if ! pveam list local | grep -q "debian-12"; then
