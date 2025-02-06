@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Copyright (c) 2021-2025 s0nt3k
 # Author: s0nt3k
