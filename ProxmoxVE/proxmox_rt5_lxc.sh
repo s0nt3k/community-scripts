@@ -12,7 +12,7 @@
 CTID="1020"  # Change this to your desired container ID
 HOSTNAME="rt-5"
 PASSWORD="rt5password"
-DISK_SIZE="16GB"
+DISK_SIZE="16"
 MEMORY="2048"
 SWAP="4096"
 CPU_CORES="2"
