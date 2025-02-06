@@ -4,7 +4,7 @@
 # Author: s0nt3k
 # E-Mail: s0nt3k@protonmail.com
 # License: MIT
-# 
+# https://github.com/s0nt3k/community-scripts/blob/main/LICENSE
 # Source: https://github.com/bestpractical/rt
 
 msg_info "Prepairing to create a LXC node in ProxmoxVE"
