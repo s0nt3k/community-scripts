@@ -5,7 +5,7 @@
 # Variables
 CTID="1024"  # Change this to your desired CTID
 HOSTNAME="rt5.lxc"
-# PASSWORD="tmpP@55-#1488-sm0k3"  # Change this to your desired root password
+PASSWORD="tmpP@55#1488sm0k3"  # Change this to your desired root password
 MEMORY="2048"  # Memory in MB
 SWAP="4096"  # Swap in MB
 DISK="32G"  # Disk size
