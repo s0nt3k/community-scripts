@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Proxmox VE Helper Script to install Debian 12 LXC with Request Tracker 5 (RT5)
 
