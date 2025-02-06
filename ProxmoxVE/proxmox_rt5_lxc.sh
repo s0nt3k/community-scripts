@@ -7,21 +7,18 @@
 # https://github.com/s0nt3k/community-scripts/blob/main/LICENSE
 # Source: https://github.com/bestpractical/rt
 
-msg_info "Prepairing to create a LXC node in ProxmoxVE"
 
-# Variables
-CT_ID=1020  # Set container ID
-HOSTNAME="rt5"
-MEMORY="2048"  # Set RAM (MB)
+# Configuration variables
+CT_ID=1020  # Change this to your desired container ID
+HOSTNAME="rt-5"
+PASSWORD="rt5password"
+DISK_SIZE="32G"
+MEMORY="2048"
 SWAP="4096"
 CPU_CORES="2"
-DISK_SIZE="32G"  # Set disk size
-PASSWORD="rt5password"  # Root password for LXC
 BRIDGE="vmbr0"
 IP="10.0.10.24/24"  # Change to your network settings
 GATEWAY="10.0.10.254"
-
-msg_info "Checking if the Debian 12 LXC template needs to be downlaoded or not."
 
 # Download Debian 12 template if not already available
 if ! pveam list local | grep -q "debian-12"; then
